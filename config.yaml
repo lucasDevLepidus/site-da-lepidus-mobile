@@ -29,15 +29,9 @@ menu:
   - name: Periódicos em Nuvens
     url: /periodicos-em-nuvens/
     weight: 3
-  - name: Eventos em Nuvens
-    url: /eventos-em-nuvens/
-    weight: 4
-  - name: Grupo em Nuvens
-    url: /grupos-em-nuvens/
-    weight: 5
   - name: Fale Conosco
     url: /contato/
-    weight: 6
+    weight: 4
   - name: Oportunidades
     url: /oportunidades/
-    weight: 7
+    weight: 5
