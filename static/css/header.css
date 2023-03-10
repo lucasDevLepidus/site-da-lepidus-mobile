@@ -1,0 +1,14 @@
+.background-gradient-gray{
+    background-color: #585858;
+    background-image: linear-gradient(to top,#585858,#3d3d3d);
+}
+.bg-hover:hover{
+    background-color: grey;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(grey),to(#363636));
+    background-image: -webkit-linear-gradient(top,grey,#363636);
+    background-image: -moz-linear-gradient(top,grey,#363636);
+    background-image: -ms-linear-gradient(top,grey,#363636);
+    background-image: -o-linear-gradient(top,grey,#363636);
+    background-image: linear-gradient(to top,grey,#363636);
+    color: #fff
+}

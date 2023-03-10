@@ -1,0 +1,48 @@
+.div-content h5{
+  font-size: .875rem;
+  font-weight: bold;
+}
+
+.div-content ul {
+  margin-left: 1.125rem;
+}
+
+.div-content li {
+  list-style: outside;
+  font-size: .875rem;
+  color: #555555;
+}
+
+.div-content a strong {
+  color: #078ce1 !important;
+}
+
+.color-black{
+  color: #000000 !important;
+}
+
+.font-bold {
+  margin-bottom: .5rem;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.space{
+  margin-top: .5rem !important;
+}
+
+.margin-reset {
+  margin: 0 auto !important;
+}
+
+.text-center > p{
+  margin: 0 !important;
+}
+
+.div-content p > a{
+  color: #078ce1;
+}
+
+.mb-6 > p{
+  margin: 0 !important;
+}

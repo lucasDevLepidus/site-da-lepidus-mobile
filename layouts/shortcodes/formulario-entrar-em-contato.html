@@ -1,0 +1,59 @@
+<p>Para falar com a <strong>Lepidus Tecnologia</strong>, entre em contato por:</p>
+
+<div class="mb-6">
+  <p>
+    <strong class="color-black">E-mail:</strong> <a href="mailto:contato@lepidus.com.br">contato@lepidus.com.br</a> 
+  <p>
+    <strong class="color-black">Telefone:</strong> (48) 3181 0048
+  </p>
+</div>
+
+<div class="mb-6">
+  <h4 class="font-bold">Sede Fiscal – Florianópolis</h4>   
+  <p class="margin-reset">Avenida Desembargador Vítor Lima, n° 260, sala 908 – Trindade</p>
+  <p class="margin-reset">Florianópolis / Santa Catarina</p>
+  <p class="margin-reset">CEP: 88040-400</p>
+</div>
+
+<p class="margin-reset">Se preferir, preencha o formulário abaixo. Retornaremos no endereço de correio eletrônico informado.</p>
+
+<form action="https://formsubmit.co/contato@lepidus.com.br" method="POST" class="px-6">
+  <div class="form-group flex flex-col my-5">
+    <label for="nome" class="text-sm">Nome completo</label>
+    <input type="text" name="nome" class="form-control w-5/12 border-2 border-gray-300 shadow-gray-300 h-8" id="nome" required>
+  </div>
+  <div class="form-group flex flex-col my-5">
+    <label for="email" class="text-sm">Endereço de e-mail</label>
+    <input type="email" name="email" class="form-control w-5/12 border-2 border-gray-300 h-8" id="email" required>
+  </div>
+  <div class="form-group flex flex-col my-5">
+    <label for="telefone" class="text-sm">Telefone</label>
+    <input type="text" name="telefone" class="form-control w-5/12 border-2 border-gray-300 h-8" id="telefone" required>
+  </div>
+  <div class="form-group flex flex-col my-5">
+    <label for="mensagem" class="text-sm">Mensagem</label>
+    <textarea name="mensagem" class="form-control w-5/12 border-2 border-gray-300 outline-blue-300" id="mensagem" cols="40" rows="8" required></textarea>
+  </div>
+
+  <input
+    type="hidden"
+    name="_subject"
+    value="Contato site Lepidus | Formulário preenchido pelo site"
+  />
+
+  <input
+    type="hidden"
+    name="_next"
+    value="{{$.Site.BaseURL}}/agradecimento/"
+  />
+
+  <input
+    type="hidden"
+    name="_url"
+    value="https://lepidus.com.br/contato/"
+  />
+
+  <input type="hidden" name="_template" value="table" />
+
+  <button type="submit" class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Enviar</button>
+</form>

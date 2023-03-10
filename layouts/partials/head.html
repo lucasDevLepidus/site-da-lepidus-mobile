@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+  name="description"
+  content="{{ $.Site.Params.description | markdownify }}"
+  />
+  <meta name="author" content="{{ $.Site.Params.author | markdownify }}" />
+  <meta name="keywords" content="{{ $.Site.Params.keywords | markdownify }}" />
+  <meta name="robots" content="{{ $.Site.Params.robots | markdownify }}" />
+  <meta name="reply-to" content="{{ $.Site.Params.replyTo | markdownify }}" />
+  <meta
+    http-equiv="content-language"
+    content="{{ $.Site.Params.contentLanguage | markdownify }}"
+  />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>{{ .Title }}</title>  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />  
+  <link rel="stylesheet" href="/css/content.css" type="text/css" media="all" />  
+  <link rel="stylesheet" href="/css/header.css" type="text/css" media="all" />  
+</head>

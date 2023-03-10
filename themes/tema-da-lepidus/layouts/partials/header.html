@@ -1,0 +1,21 @@
+<header>
+  <div class="">
+    <div class="bg-black text-white text-center">  
+      <a href="/">
+        <img src="{{ $.Site.Params.images.logoLepidus }}" alt="Lepidus Tecnologia">
+      </a>  
+    </div>
+    <nav class="background-gradient-gray" role="navigation">
+      <ul class="grid grid-cols-2 lg:flex lg:items-center" role="navigation">
+        {{ $current := . }} 
+        {{ range .Site.Menus.nav }} 
+        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+        <li class="bg-hover bd-right">
+          {{$active = or $active (eq .Name $current.Title) }}
+          <a href="{{ .URL }}" class="text-white text-sm p-4 block">{{ .Name }}</a>
+        </li>
+        {{ end }} 
+      </ul>
+    </nav>
+  </div>
+</header>

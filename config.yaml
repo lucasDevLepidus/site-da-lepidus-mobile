@@ -1,0 +1,43 @@
+baseURL: 'https://lepidus.com.br/'
+languageCode: pt-br
+theme: tema-da-lepidus
+title: Lepidus Tecnologia
+
+params:
+  images:
+    logoLepidus: /images/Banner_Lepidus_Tecnologia.svg
+    logoPeriodicos: /images/Periodicos-em-Nuvens.png
+    logoEventos: /images/Eventos-em-Nuvens.png
+    logoGrupos: /images/Grupos-em-Nuvens.png
+  
+  # Meta tags
+  description: 'Tecnologia com agilidade e qualidade'
+  author: 'Lepidus Tecnologia'
+  keywords: 'Lepidus, Tecnologia, grupo em nuvens, eventos em nuvens, periódicos em nuvens, periódicos, revistas acadêmicas, revistas acadêmicas em SEER, SEER, revistas de universidades'
+  robots: 'index, follow'
+  replyTo: 'contato@lepidus.com.br'
+  contentLanguage: 'pt-br'
+
+menu:
+  nav:
+  - name: Inicio
+    url: /
+    weight: 1
+  - name: Quem somos
+    url: /quem-somos/
+    weight: 2
+  - name: Periódicos em Nuvens
+    url: /periodicos-em-nuvens/
+    weight: 3
+  - name: Eventos em Nuvens
+    url: /eventos-em-nuvens/
+    weight: 4
+  - name: Grupo em Nuvens
+    url: /grupos-em-nuvens/
+    weight: 5
+  - name: Fale Conosco
+    url: /contato/
+    weight: 6
+  - name: Oportunidades
+    url: /oportunidades/
+    weight: 7
